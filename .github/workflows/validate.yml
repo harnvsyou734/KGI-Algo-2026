@@ -1,0 +1,11 @@
+name: validate
+
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  call-validate:
+    uses: KGI-ALGO-trading-2026/TradeSim/.github/workflows/validate-reusable.yml@main
+    secrets:
+      engine_token: ${{ secrets.ENGINE_READ_TOKEN }}

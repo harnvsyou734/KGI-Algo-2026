@@ -1,0 +1,29 @@
+# --- ของที่มากับ tradeSim zip ---
+# แตก zip ทับโฟลเดอร์ repo นี้ได้เลย ไฟล์พวกนี้จะไม่ถูก commit ขึ้น repo ของทีม
+# (ผู้จัดมีอยู่แล้ว การ push ขึ้นมาทำให้ repo บวมและ diff อ่านไม่ออกเฉย ๆ)
+tradeSim/
+marketInfo/
+TradingSimulation.ipynb
+requirements.txt
+requirements-optional.txt
+*.zip
+strategy/Example_historical_strategy.py
+
+# --- ผลลัพธ์จากการรันที่เครื่องตัวเอง ---
+result/
+daily_logs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- เครื่องมือ/ระบบปฏิบัติการ ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
